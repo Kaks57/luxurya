@@ -7,16 +7,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dossier node_modules
 node_modules
+
+# Dossiers générés
 dist
 dist-ssr
-*.local
 
-# Editor directories and files
+# Fichiers de configuration d'éditeur
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+
+# Fichiers spécifiques à Visual Studio
 *.suo
 *.ntvs*
 *.njsproj
