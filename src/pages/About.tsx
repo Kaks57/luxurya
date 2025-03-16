@@ -76,7 +76,7 @@ const About = () => {
               </div>
               <div className="relative animate-slide-up overflow-hidden rounded-lg shadow-xl" style={{ animationDelay: "0.2s" }}>
   <img 
-    src="public/images/WhatsApp Image 2025-03-15 at 20.22.54.jpeg" 
+    src="/images/WhatsApp Image 2025-03-15 at 20.22.54.jpeg" 
     alt="Voiture de luxe" 
     className="w-full h-auto object-cover"
     style={{ height: "580px", objectPosition: "center" }}
