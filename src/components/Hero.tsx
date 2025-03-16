@@ -10,7 +10,7 @@ const Hero = () => {
      {/* Video or image background */}
 <div className="absolute inset-0 w-full h-full bg-black">
   <img
-    src="public/images/treez.jpeg"
+    src="/images/treez.jpeg"
     alt="Luxury car"
     className="w-full h-full object-cover opacity-70"
     style={{ objectPosition: '0 70%' }}
