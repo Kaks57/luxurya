@@ -116,7 +116,7 @@ const ContactInfo = () => (
   <div className="lg:pl-10 animate-slide-up" style={{ animationDelay: "0.2s" }}>
     <h2 className="text-2xl font-semibold mb-6">Nos coordonnées</h2>
     <CardInfo icon={<MapPin />} title="Adresse" details={["71 rue desnouettes", "75015, Paris, France"]} />
-    <CardInfo icon={<Phone />} title="Téléphone" details={["+33 6 72 74 06 85"]} />
+    <CardInfo icon={<Phone />} title="Téléphone" details={["+33 6 72 74 06 85". "+33 7 53 91 07 12".    ]} />
   </div>
 );
 
