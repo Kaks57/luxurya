@@ -137,7 +137,7 @@ const Vehicles = () => {
             <div className="max-w-3xl animate-fade-in">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Notre Flotte de Luxe</h1>
               <p className="text-xl text-gray-300 mb-4">
-                Choisissez parmi notre collection de véhicules premium pour une expérience inoubliable.
+                Choisissez parmi notre collection de véhicules premium pour une expérience 
               </p>
             </div>
           </div>
