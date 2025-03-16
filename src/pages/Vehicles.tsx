@@ -128,7 +128,7 @@ const Vehicles = () => {
         {/* Header */}
         <div className="text-white py-20" style={{ position: 'relative' }}>
         <img
-  src="/images/continental.jpeg"  // Chemin relatif à l'image dans le dossier public
+  src="/images/WhatsApp Image 2025-03-16 at 14.56.21.jpeg"  // Chemin relatif à l'image dans le dossier public
   alt="Flotte de luxe"
   className="absolute inset-0 w-full h-full object-cover opacity-50"
 />
