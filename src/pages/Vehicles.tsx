@@ -128,7 +128,7 @@ const Vehicles = () => {
         {/* Header */}
         <div className="text-white py-20" style={{ position: 'relative' }}>
           <img
-            src="public/images/continental.jpeg"  // Chemin relatif à l'image dans le dossier public
+            src="dist/images/continental.jpeg"  // Chemin relatif à l'image dans le dossier public
             alt="Flotte de luxe"
             className="absolute inset-0 w-full h-full object-cover opacity-50"  // Cette classe permet d'ajuster l'image
           />
