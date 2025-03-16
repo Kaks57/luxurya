@@ -31,7 +31,7 @@ const Index = () => {
             <div className="text-center mb-12 animate-fade-in">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Meilleurs véhicules</h2>
               <p className="text-luxury-600 max-w-2xl mx-auto">
-              Découvrez notre sélection de véhicules de luxe triés sur le volet pour votre prochaine aventure.
+                Découvrez notre sélection de véhicules de luxe triés sur le volet pour votre prochaine aventure.
               </p>
             </div>
 
@@ -60,7 +60,7 @@ const Index = () => {
             <div className="text-center mb-16 animate-fade-in">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Pourquoi nous choisir ?</h2>
               <p className="text-luxury-600 max-w-2xl mx-auto">
-              Découvrez l'alliance parfaite du luxe, de la commodité et d'un service exceptionnel.
+                Découvrez l'alliance parfaite du luxe, de la commodité et d'un service exceptionnel.
               </p>
             </div>
 
@@ -71,7 +71,7 @@ const Index = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Premium Fleet</h3>
                 <p className="text-luxury-600">
-                Notre collection comprend les véhicules les plus prestigieux du monde, méticuleusement entretenus à la perfection.
+                  Notre collection comprend les véhicules les plus prestigieux du monde, méticuleusement entretenus à la perfection.
                 </p>
               </div>
 
@@ -81,7 +81,7 @@ const Index = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Assurance complète</h3>
                 <p className="text-luxury-600">
-                Conduisez en toute confiance en sachant que vous êtes entièrement couvert par nos assurances complètes.
+                  Conduisez en toute confiance en sachant que vous êtes entièrement couvert par nos assurances complètes.
                 </p>
               </div>
 
@@ -91,9 +91,29 @@ const Index = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Location flexible</h3>
                 <p className="text-luxury-600">
-                Choisissez des périodes de location allant de 24 heures à une semaine complète, avec des processus de réservation et d'enlèvement transparents.
+                  Choisissez des périodes de location allant de 24 heures à une semaine complète, avec des processus de réservation et d'enlèvement transparents.
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Location Section */}
+        <section className="py-20 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16 animate-fade-in">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Notre Localisation</h2>
+              <p className="text-luxury-600 max-w-2xl mx-auto mb-6">
+                Retrouvez-nous sur Google Maps pour une visite en personne.
+              </p>
+              <a
+                href="https://g.co/kgs/16xzzYx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-luxury-900 hover:underline"
+              >
+                Voir sur Google Maps
+              </a>
             </div>
           </div>
         </section>
@@ -104,7 +124,7 @@ const Index = () => {
             <div className="max-w-3xl mx-auto text-center animate-fade-in">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Prêt à vivre l'expérience du luxe ?</h2>
               <p className="text-gray-300 mb-8">
-              Créez un compte dès aujourd'hui et bénéficiez d'offres exclusives et de réservations prioritaires.
+                Créez un compte dès aujourd'hui et bénéficiez d'offres exclusives et de réservations prioritaires.
               </p>
               <Link to="/register">
                 <Button size="lg" className="bg-white text-luxury-900 hover:bg-white/90 px-6 py-6 text-lg">
