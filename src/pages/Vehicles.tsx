@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Filter, Search, SlidersHorizontal } from "lucide-react";
@@ -127,8 +126,13 @@ const Vehicles = () => {
       <Navbar />
       <main className="flex-grow pt-16 md:pt-20">
         {/* Header */}
-        <div className="bg-luxury-900 text-white py-20">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-white py-20" style={{ position: 'relative' }}>
+          <img
+            src="/images/WhatsApp Image 2025-03-16 at 14.56.21.jpeg"  // Chemin relatif à l'image dans le dossier public
+            alt="Flotte de luxe"
+            className="absolute inset-0 w-full h-full object-cover opacity-50"  // Cette classe permet d'ajuster l'image
+          />
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="max-w-3xl animate-fade-in">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Notre Flotte de Luxe</h1>
               <p className="text-xl text-gray-300 mb-4">
@@ -314,7 +318,7 @@ const Vehicles = () => {
                     <div 
                       key={vehicle.id} 
                       className="animate-slide-up" 
-                      style={{ animationDelay: `${index * 0.1}s` }}
+                      style={{ animationDelay: `${index * 100}ms` }}
                     >
                       <VehicleCard vehicle={vehicle} />
                     </div>
@@ -322,14 +326,7 @@ const Vehicles = () => {
                 </div>
               </>
             ) : (
-              <div className="text-center py-12">
-                <Filter className="mx-auto h-12 w-12 text-gray-400 mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Aucun véhicule trouvé</h3>
-                <p className="text-gray-500 mb-6">
-                  Essayez d'ajuster vos critères de recherche ou de filtrage
-                </p>
-                <Button onClick={clearFilters}>Effacer les Filtres</Button>
-              </div>
+              <div className="text-center text-lg text-gray-500">Aucun véhicule trouvé</div>
             )}
           </div>
         </div>
@@ -340,3 +337,4 @@ const Vehicles = () => {
 };
 
 export default Vehicles;
+// Compare this snippet from src/pages/Contact.tsx:
