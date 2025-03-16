@@ -127,11 +127,12 @@ const Vehicles = () => {
       <main className="flex-grow pt-16 md:pt-20">
         {/* Header */}
         <div className="text-white py-20" style={{ position: 'relative' }}>
-          <img
-            src="dist/images/continental.jpeg"  // Chemin relatif à l'image dans le dossier public
-            alt="Flotte de luxe"
-            className="absolute inset-0 w-full h-full object-cover opacity-50"  // Cette classe permet d'ajuster l'image
-          />
+        <img
+  src="/images/continental.jpeg"  // Chemin relatif à l'image dans le dossier public
+  alt="Flotte de luxe"
+  className="absolute inset-0 w-full h-full object-cover opacity-50"
+/>
+
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="max-w-3xl animate-fade-in">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Notre Flotte de Luxe</h1>
