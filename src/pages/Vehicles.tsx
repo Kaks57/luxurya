@@ -337,4 +337,3 @@ const Vehicles = () => {
 };
 
 export default Vehicles;
-// Compare this snippet from src/pages/Contact.tsx:
