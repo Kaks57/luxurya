@@ -52,7 +52,7 @@ let MOCK_USERS = [
   {
     id: 1,
     name: "Admin",
-    email: "admin@admin.com", // Email simplifié pour faciliter l'accès
+    email: "luxuryrentalworld.com@gmail.com", // Email simplifié pour faciliter l'accès
     password: "admin", // Mot de passe simplifié
     role: "admin" as const,
     joinDate: "2023-01-01",
