@@ -1,0 +1,3 @@
+[submodule "luxurya"]
+    path = luxurya
+    url = https://github.com/Kaks57/luxurya.git
