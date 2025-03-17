@@ -125,6 +125,7 @@ const Vehicles = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow pt-16 md:pt-20">
+<<<<<<< HEAD
    {/* Header */}
 <div className="bg-cover bg-center py-20" style={{ backgroundImage: "url('/images/WhatsApp Image 2025-03-16 at 14.56.21.jpeg')" }}>
   <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -137,6 +138,25 @@ const Vehicles = () => {
   </div>
 </div>
 
+=======
+        {/* Header */}
+        <div className="text-white py-20" style={{ position: 'relative' }}>
+        <img
+  src="/images/WhatsApp Image 2025-03-16 at 14.56.21.jpeg"  // Chemin relatif à l'image dans le dossier public
+  alt="Flotte de luxe"
+  className="absolute inset-0 w-full h-full object-cover opacity-50"
+/>
+
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div className="max-w-3xl animate-fade-in">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">Notre Flotte de Luxe</h1>
+            <p className="text-xl text-black font-bold mb-4">
+  Choisissez parmi notre collection de véhicules premium pour une expérience luxueuse.
+</p>
+            </div>
+          </div>
+        </div>
+>>>>>>> 5c01f9dd5dbdbc949d9e329152d2c7bf99246958
 
         {/* Filters & Search - Desktop */}
         <div className="bg-white border-b border-gray-200 py-4 hidden md:block animate-slide-down">
