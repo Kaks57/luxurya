@@ -40,7 +40,6 @@ const About = () => {
       <Navbar />
       <main className="flex-grow pt-16 md:pt-20">
         {/* Header */}
-<<<<<<< HEAD
         <div
           className="bg-cover bg-center py-20"
           style={{ backgroundImage: "url('/images/WhatsApp Image 2025-03-16 at 14.56.21.jpeg')" }}
@@ -49,13 +48,6 @@ const About = () => {
             <div className="max-w-3xl animate-fade-in">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">À Propos de Nous</h1>
               <p className="text-xl font-bold mb-4 text-white">
-=======
-        <div className="bg-luxury-900 text-white py-20">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl animate-fade-in">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">À Propos de Nous</h1>
-              <p className="text-xl text-gray-300 mb-4">
->>>>>>> 5c01f9dd5dbdbc949d9e329152d2c7bf99246958
                 Luxury Rental World est votre partenaire privilégié pour la location de véhicules d'exception.
               </p>
             </div>

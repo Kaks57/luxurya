@@ -84,13 +84,10 @@ const Footer = () => {
                 <a href="tel:+33123456789" className="text-gray-300 hover:text-white transition-colors">+33 6 72 74 06 85</a>
               </li>
               <li className="flex">
-<<<<<<< HEAD
                 <Phone className="h-5 w-5 text-gray-300 mr-3 shrink-0" />
                 <a href="tel:+33123456789" className="text-gray-300 hover:text-white transition-colors">+33 7 53 91 07 12</a>
               </li>
               <li className="flex">
-=======
->>>>>>> 5c01f9dd5dbdbc949d9e329152d2c7bf99246958
                 <Mail className="h-5 w-5 text-gray-300 mr-3 shrink-0" />
                 <a href="mailto:info@luxuryrentalword.com" className="text-gray-300 hover:text-white transition-colors">info@luxuryrentalworld.com</a>
               </li>

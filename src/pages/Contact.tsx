@@ -51,7 +51,6 @@ const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-<<<<<<< HEAD
       {/* Header */}
       <div className="bg-cover bg-center py-20" style={{ backgroundImage: "url('/images/WhatsApp Image 2025-03-16 at 14.56.21.jpeg')" }}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -94,48 +93,6 @@ const Contact = () => {
         </MapContainer>
       </div>
 
-=======
-      <main className="flex-grow pt-16 md:pt-20">
-        <div className="bg-luxury-900 text-white py-20">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl animate-fade-in">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Contactez-nous</h1>
-              <p className="text-xl text-gray-300 mb-4">Notre équipe est à votre disposition pour répondre à toutes vos questions.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              <div className="animate-slide-up">
-                <h2 className="text-2xl font-semibold mb-6">Envoyez-nous un message</h2>
-                <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-                  <InputField label="Nom complet" id="name" register={register("name", { required: "Le nom est requis" })} error={errors.name} />
-                  <InputField label="Email" id="email" register={register("email", { required: "L'email est requis", pattern: { value: /^[^@]+@[^@]+\.[^@]+$/, message: "Email invalide" } })} error={errors.email} />
-                  <InputField label="Téléphone" id="phone" register={register("phone")} />
-                  <InputField label="Sujet" id="subject" register={register("subject", { required: "Le sujet est requis" })} error={errors.subject} />
-                  <TextareaField label="Message" id="message" register={register("message", { required: "Le message est requis" })} error={errors.message} />
-                  <Button type="submit" className="w-full bg-luxury-900 hover:bg-luxury-800 text-white" disabled={isSubmitting}>
-                    {isSubmitting ? <BeatLoader color="#fff" size={10} /> : <> <Send className="mr-2 h-4 w-4" /> Envoyer le message </>}
-                  </Button>
-                </form>
-              </div>
-              <ContactInfo />
-            </div>
-          </div>
-        </div>
-
-        <div className="w-full h-[400px] lg:h-[500px] sm:h-[350px]">
-          <MapContainer center={[48.854, 2.292]} zoom={15} style={{ width: "100%", height: "100%" }}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[48.854, 2.292]} icon={customIcon}>
-              <Popup><strong>71 rue desnouettes</strong><br />75015, Paris, France</Popup>
-            </Marker>
-          </MapContainer>
-        </div>
-      </main>
->>>>>>> 5c01f9dd5dbdbc949d9e329152d2c7bf99246958
       <Footer />
     </div>
   );
@@ -161,14 +118,9 @@ const ContactInfo = () => (
   <div className="lg:pl-10 animate-slide-up" style={{ animationDelay: "0.2s" }}>
     <h2 className="text-2xl font-semibold mb-6">Nos coordonnées</h2>
     <CardInfo icon={<MapPin />} title="Adresse" details={["71 rue desnouettes", "75015, Paris, France"]} />
-<<<<<<< HEAD
     <CardInfo icon={<Phone />} title="Téléphone" details={["+33 6 72 74 06 85", "+33 7 53 91 07 12"]} />
     <CardInfo icon={<Mail />} title="Email" details={["contact@luxuryrental.com"]} />
   </div>
-=======
-   <CardInfo icon={<Phone />} title="Téléphone" details={["+33 6 72 74 06 85", "+33 7 53 91 07 12"]} />
-</div>
->>>>>>> 5c01f9dd5dbdbc949d9e329152d2c7bf99246958
 );
 
 const CardInfo = ({ icon, title, details }) => (
